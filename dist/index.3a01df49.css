@@ -238,7 +238,9 @@ p {
 
 .row2col1 h1 {
   z-index: 1;
-  color: #424242;
+  color: #0000;
+  background-image: linear-gradient(to right, #000 81%, #fff 20%);
+  -webkit-background-clip: text;
   font-family: Fahkwang, sans-serif;
   font-size: 4rem;
   font-weight: 100;
@@ -841,6 +843,7 @@ p {
   }
 
   .row2col1 h1 {
+    background-image: linear-gradient(to right, #000 73%, #fff 20%);
     padding-left: 2rem;
     font-size: 2rem;
   }
@@ -1004,6 +1007,7 @@ p {
   }
 
   .row2col1 h1 {
+    background-image: linear-gradient(to right, #000 100%, #fff 20%);
     font-size: 3rem;
   }
 }
